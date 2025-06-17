@@ -20,7 +20,6 @@ if numeros:
     Mediana = statistics.median(numeros) #Calcula a mediana
     print("Sua mediana é:", Mediana) #Apresenta Valor da Mediana
     print("Sua média é:", Média) #Apresenta o Valor da Média
-    print("Desvio Padrão:", desvio)
-    print("Quantidade de números inseridos:", len(numeros))
+    print("Seu desvio é:", desvio)
 else:
     print("Sem informações suficientes para cálculo.")
